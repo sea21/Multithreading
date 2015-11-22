@@ -15,7 +15,7 @@ public class GeneraNumeros {
 	}
 	
 	public int asientos() {
-		int numero = (int)Math.floor(Math.random()*(1-11)+11);
+		int numero = (int)Math.floor(Math.random()*(1-6)+6);
 		return numero;
 	}
 
