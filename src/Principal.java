@@ -10,6 +10,11 @@ public class Principal {
 		GeneraFechas fecha = new GeneraFechas();
 		GeneraNumeros numero = new GeneraNumeros();
 		
+		ObtenerEmpresayTercero empresaytercero = new ObtenerEmpresayTercero();
+		
+		ObtenerCuentas obtenerCuentas = new ObtenerCuentas();
+		
+		obtenerCuentas.obtenerNombres();
 	}
 
 }
